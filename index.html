@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="CyberLytics"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="img/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="img/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="img/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="img/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="img/mstile-310x310.png" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head
+  content must come *after* these tags -->
+    <title>CyberLytics</title>
+
+    <!-- Icon css link -->
+    <link href="vendors/material-icon/css/materialdesignicons.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="vendors/linears-icon/style.css" rel="stylesheet" />
+    <link href="css/academicons.min.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Extra plugin css -->
+    <link href="vendors/owl-carousel/assets/owl.carousel.css" rel="stylesheet" />
+    <link href="vendors/animate-css/animate.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/colors/cpnblue.css"/> <!-- blue = #0088BB -->
+</head>
+
+<body class="light_bg" data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="80" data-scroll-animation="true">
+
+    <script src="js/cpn.js"></script>
+
+    <div id="preloader">
+        <div id="preloader_spinner">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!--================ First header Area =================-->
+    <header class="header_area">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://www.cyberlytics.eu">
+                        <!-- <img src="img/logo.png" alt=""> -->
+                        <span class="site_title">cyberlytics</span>
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#profil">Profil</a></li>
+                        <li><a href="#research">Forschung</a></li>
+                        <li><a href="#publications">Publikationen</a></li>
+                        <li><a href="#forschungsprojekte">Projekte</a></li>
+                        <li><a href="#cyberpetaneuron">CPN</a></li>
+                        <li><a href="#impressum">Impressum</a></li>
+                        <!--<li><a href="#datenschutzerklaerung">Datenschutzerkl&auml;rung</a></li>-->
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </header>
+    <!--================End Footer Area =================-->
+
+    <!--================Total container Area =================-->
+    <div class="container main_container">
+        <div class="content_inner_bg row m0">
+            <section class="about_person_area pad" id="profil">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="person_img">
+                            <img src="img/member/cyberlytics.svg" alt="CyberLytics-Logo" width="322" height="322">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row person_details">
+                            <span style="color:#666666;font-weight: bold;">Prof. Dr.</span>
+                            <h3>Christoph P. Neumann</h3>
+                            <h4>Big Data und Cloud-Computing für KI</h4>
+                            <p>Hauptberuflich bin ich Professor an der OTH Amberg-Weiden, mit dem
+                                Lehrgebiet <a href="https://www.oth-aw.de/cpn" style="color: #0088BB; font-weight: bold;">Big Data und Cloud-Computing f&uumlr KI</a>.
+                                Davor war ich etwa 10 Jahre in der Industrie t&auml;tig und habe dort viele große und kleine Projekte mitgestaltet.
+                                Als IAPM Certified Agile Project Manager habe ich etliche dieser Projekte
+                                verantwortet.
+                                Meine Dissertation an der Friedrich-Alexander-Universität Erlangen-Nürnberg hatte die Schwerpunkte verteilte Datenverwaltung, Systemintegration und Prozess-Management.
+                            </p>
+                            <p>
+                                Freiberuflich bin ich als <a href="https://www.cpnatwork.eu" style="color: #0088BB; font-weight: bold;">IT-Berater, Software-Ingenieur und Datenarchitekt</a> tätig.
+                            </p>
+                            <p>
+                                In unserer Zeit sind innovative Techniken f&uuml;r die Massendatenhaltung und -auswertung neu im Entstehen und diese Daten dienen als Rohstoff f&uuml;r k&uuml;nstliche Intelligenz. Ich freue mich darauf diese Entwicklung aktiv mitzugestalten.
+                            </p>
+                            <!-- <p>Der &uuml;bergreifende Name aller meiner Forschungsaktivit&auml;ten ist CyberLytics.</p>-->
+                            
+                            <br />
+                            
+                            <h4 style="color: #0088BB;">Forschungsfeld</h4>
+                            <ol>
+                                <li>Big Data Curation: KI-gest&uuml;tzte Verfahren um sicherzustellen, dass relevante Daten auch in Zukunft zuverl&auml;ssig verf&uuml;gbar sind,&nbsp;f&uuml;r Forschung und zur Wiederverwendung. Denn&nbsp;&bdquo;L&ouml;schen ist leicht. Bewahren ist hart!&ldquo;</li>
+                            </ol>
+                            <h4 style="color: #0088BB;">Forschungsinteressen</h4>
+                            <p style="color: #CCCCCC;">Aus dem breiten Gebiet „Big Data und Cloud-Computing für KI” beobachte ich die internationale DB-Community zu folgenden Forschungsfeldern und bearbeite gerne Unterbereiche davon als Forschungsthemen:</p>
+                            <ol start="2">
+                                <li>Green Big Processing: Nach Kosten optimierte Verfahren, zur Sicherstellung von Relevanz und Ökonomie für die Massendatenverarbeitung in der Cloud</li>
+                                <li>Massiv-parallele Programmierung von KI-Verfahren</li>
+                                <li>Integriertes maschinelles Lernen in Datenbanksystemen</li>
+                                <li>Skalierbare Datenarchitekturen in der Cloud auf modernen und sich weiterentwickelnden Hardware-Infrastrukturen</li>
+                                <li>Intelligente Algorithmen, skalierbare Datenarchitekturen und&nbsp;agile Datenintegration mit NewSQL- und NoSQL-Systemen</li>
+                                
+                            </ol>
+                            <span >
+                            <h4 style="color: #CCCCCC;">Fr&uuml;here Forschungsfelder</h4>
+                            <p style="color: #CCCCCC;">Abgeleitet aus meiner Dissertation mit dem Forschungsthema „Distributed Case Handling” (verteilte Fallakten im Gesundheitswesen):</p>
+                            <ol start="7" style="color: #CCCCCC;">
+                                <li>Verteilte Systeme, Workflow Management, Content Management</li>
+                                <li>Evolution&auml;re Informationssysteme</li>
+                                <li>Prozessunterst&uuml;tzung für wissensintensive ad-hoc Prozesse</li>
+                                <li>Dokumenten-orientierte Integration von Informationssystemen, v.a. Patientenakten und Fallakten im Gesundheitswesen (u.a. Brustkrebs)</li>
+                            </ol>
+                            </span>
+                            
+                            <br />
+                            
+                            <div class="person_information">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td>Amtsbezeichnung</td>
+                                        <td>Professor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lehrgebiet</td>
+                                        <td>Big Data und Cloud-Computing für KI</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Akademische Grade</td>
+                                        <td>Dipl.-Inf. Dr.-Ing.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Titel</td>
+                                        <td>Prof. Dr.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Metropolregion</td>
+                                        <td>Amberg, Weiden, N&uuml;rnberg, F&uuml;rth, Erlangen</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Telefon</td>
+                                        <td><a href="callto:+4915156031657">+49 151 56031657</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>E-Mail</td>
+                                        <td>
+                                            <script>
+                                                //<![CDATA[
+                                                viewTheUnspokenCPN("(Geschützt gegen Spammer)");
+                                                //]]>
+
+                                            </script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>PGP</td>
+                                        <td><a href="https://pgp.surfnet.nl/pks/lookup?op=get&search=0x2876154614C62D0A">0x14C62D0A</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <ul class="social_icon">
+                            <li><a href="https://beacons.ai/cyberlytics"><i class="fa fa-link"></i></a></li>
+                            <li><a href="https://www.oth-aw.de/cpn"><i class="fa fa-university"></i></a></li>
+                            <li><a href="https://pgp.surfnet.nl/pks/lookup?op=get&search=0x2876154614C62D0A"><i class="fa fa-key"></i></a></li>
+                            <!-- <li><a href="callto:+4915156031657"><i class="fa fa-mobile"></i></a></li> -->
+                            <!--<li><a href="skype:cpnatwork?call"><i class="fa fa-skype"></i></a></li>-->
+                            <li><a href="https://www.xing.to/cpn"><i class="fa fa-xing"></i></a></li>
+                            <li><a href="https://de.linkedin.com/in/cpnatwork"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://twitter.com/CyberPetaNeuron"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/cyberlytics/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.pinterest.de/cyberlytics/"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="https://www.flickr.com/people/cyberlytics/"><i class="fa fa-flickr"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
+                            <li><a href="https://github.com/cyberlytics"><i class="fa fa-github"></i></a></li>
+                            <li><a href="http://scholar.google.de/citations?user=CGWWa5AAAAAJ"><i class="ai ai-google-scholar"></i></a></li>
+                            <li><a href="https://dblp.uni-trier.de/pers/hd/n/Neumann:Christoph_P="><i class="ai ai-dblp"></i></a></li>
+                            <li><a href="https://www.researchgate.net/profile/Christoph_Neumann2"><i class="ai ai-researchgate"></i></a></li>
+                            <li><a href="https://www.csauthors.net/christoph-p-neumann/"><i class="ai ai-dataverse"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="service_area" id="research">
+                <div class="main_title">
+                    <h2>Themen&shy;felder</h2>
+                </div>
+                <div class="service_inner row">
+                    <div class="col-xs-6 col-md-3">
+                        <div class="service_item wow fadeIn animated">
+                            <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                            <h4>Skalierbare<br />Daten&shy;architekturen</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="service_item wow fadeIn animated">
+                            <i class="fa fa-signal" aria-hidden="true"></i>
+                            <h4>Big Data<br />&nbsp;<br />&nbsp;</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="service_item wow fadeIn animated">
+                            <i class="fa fa-tint" aria-hidden="true"></i>
+                            <h4>Agile Daten-<br />integration<br />&nbsp;</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-6 col-md-3">
+                        <div class="service_item wow fadeIn animated">
+                            <i class="fa fa-cloud" aria-hidden="true"></i>
+                            <h4>Cloud<br />Computing<br />&nbsp;</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="service_item wow fadeIn animated">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                            <h4>Data Science<br />&nbsp;<br />&nbsp;</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="service_item wow fadeIn animated">
+                            <i class="fa fa-recycle" aria-hidden="true"></i>
+                            <h4>Big Data<br />Curation<br />&nbsp;</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="service_item wow fadeIn animated">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                            <h4>Massiv-parallele<br/>Program&shy;mierung<br/>von KI-Verfahren</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="service_item wow fadeIn animated">
+                            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                            <h4>Integriertes<br/>maschinelles Lernen<br/>in Datenbank&shy;systemen</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--
+            <section class="portfolio_area pad" id="publications">
+                <div class="main_title">
+                    <h2>Ausgewählte Publikationen</h2>
+                </div>
+                <div class="row">
+                    <div class="portfolio_list_inner">
+                        <div class="col-md-4 photo marketing">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="pdf/ChristophNeumannDissertation/">
+                                        <h4>Distributed Case Handling</h4>
+                                    </a>
+                                    <h5>Dissertation</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 design">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="http://univis.uni-erlangen.de/prg?search=projects&department=100107&name=promed&show=long">
+                                        <h4>ProMed</h4>
+                                    </a>
+                                    <h5>Projekt</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 photo marketing">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="pdf/ispa2012_neumann_hydra/">
+                                        <h4>Hydra Version Control</h4>
+                                    </a>
+                                    <h5>Publication</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 design marketing">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="pdf/techrep2012_neumann/">
+                                        <h4>DEUS: Distributed Patient Files</h4>
+                                    </a>
+                                    <h5>TechRep</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 photo">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="https://dx.doi.org/10.1007/s00287-009-0398-6">
+                                        <h4>Federated CMDB</h4>
+                                    </a>
+                                    <h5>Publication</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 marketing">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="pdf/ideas2010_neumann_oxdbs/">
+                                        <h4>OXDBS: XML-DB + OWL-DL</h4>
+                                    </a>
+                                    <h5>Publication</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 design marketing">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="pdf/ideas2009_irmert/">
+                                        <h4>Runtime Adaptable TX-Manager</h4>
+                                    </a>
+                                    <h5>Publication</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 photo">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="https://www.igi-global.com/gateway/article/72340">
+                                        <h4>The alpha-Flow Approach</h4>
+                                    </a>
+                                    <h5>Journal</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 marketing">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="pdf/techrep2011_lauterwald/">
+                                        <h4>The Erlangen Glaucoma Registry</h4>
+                                    </a>
+                                    <h5>TechRep</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            -->
+           
+            <section class="education_area pad" id="forschungsprojekte">
+                <div class="main_title">
+                    <h2>Forschungs&shy;projekte</h2>
+                </div>
+                <div class="education_inner_area">
+                    <!--
+                    <div class="education_item wow fadeInUp animated" data-line="P">
+                        <h6>2021 &ndash; heute</h6>
+                        <a href="#">
+                            <h4>Big Data und Cloud-Computing f&uuml;r KI</h4>
+                        </a>
+                        <h5>Ostbayerische Technische Hochschule Amberg-Weiden</h5>
+                        <p>Diverse Abschlussarbeiten</p>
+                    </div>
+                    -->
+                    <div class="education_item wow fadeInUp animated" data-line="S">
+                        <h6>2018 &ndash; 2019</h6>
+                        <a href="#">
+                            <h4>SmartClass</h4>
+                        </a>
+                        <h5>SCHEMA Gruppe</h5>
+                        <p>Anwendung von Machine Learning zur Qualitätssicherung von
+                        Klassifikationsmerkmalen in der technischen Dokumentation
+                        </p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="H">
+                        <h6>2015</h6>
+                        <a href="#">
+                            <h4>Hadoop Data Lake</h4>
+                        </a>
+                        <h5>TeamBank AG</h5>
+                        <p>Leitung des Proof-of-Concept-Projekts &bdquo;Hadoop Data Lake&ldquo;: Erstellung der Anforderungsspezifikation, Beauftragung und Koordination von Rechenzentrum und Dienstleistern, technische und strategische Bewertung</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="E">
+                        <h6>2011 &ndash; 2013</h6>
+                        <a href="#">
+                            <h4>ERA</h4>
+                        </a>
+                        <h5>Privatprojekt</h5>
+                        <p>Ein Editor für die Anforderungsanalyse auf Basis von RIF/ReqIF
+                            Standards; basierend auf Java, Eclipse und EMF</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="A">
+                        <h6>2008 &ndash; 2012</h6>
+                        <a href="#">
+                            <h4>&alpha;-Flow</h4>
+                        </a>
+                        <h5>Dissertationsprojekt</h5>
+                        <p>Verteilte Fallakten in Form &bdquo;aktiver&ldquo; Dokumente;
+                            basierend auf Java, Spring IoC, Swing, JAXB, JBoss Drools, Bouncy
+                            Castle</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="H">
+                        <h6>2011</h6>
+                        <a href="#">
+                            <h4>Hydra</h4>
+                        </a>
+                        <h5>FAU, Lehrstuhl für Informatik 6 (Datenmanagement)</h5>
+                        <p>Ein Versionskontrollsystem mit mehreren HEADs und
+                            validity-basierter Pfad-Navigation; basierend auf Java, JCL</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="C">
+                        <h6>2011</h6>
+                        <a href="#">
+                            <h4>Case-Portal</h4>
+                        </a>
+                        <h5>FAU, Lehrstuhl für Informatik 6 (Datenmanagement)</h5>
+                        <p>Ein Web-Portal zur Unterstützung wissensintensiver Prozesse;
+                            basierend auf Java, Spring, JPA, MySQL, Struts 2, script.aculo.us,
+                            Geronimo (REST)</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="E">
+                        <h6>2011</h6>
+                        <a href="#">
+                            <h4>Erlanger Glaukomregister</h4>
+                        </a>
+                        <h5>FAU, Lehrstuhl für Informatik 6 (Datenmanagement)</h5>
+                        <p>Eine wissenschaftliche Datenbank
+                        für die longitudinale Beobachtungsstudie
+                        von Glaukomerkrankungen</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="P">
+                        <h6>2010</h6>
+                        <a href="#">
+                            <h4>ejPortal</h4>
+                        </a>
+                        <h5>für die Universitätsbibliothek der FAU/TechFak</h5>
+                        <p>Ein Web-Portal zur Erfassung und Verwaltung elektronischer Journale
+                            basierend auf Java, Spring, Hibernate, MySQL, OpenSymphony XWork
+                            (Struts)</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="M">
+                        <h6>2010</h6>
+                        <a href="#">
+                            <h4>Massive Multiuser Virtual Environments</h4>
+                        </a>
+                        <h5>FAU, Lehrstuhl für Informatik 6 (Datenmanagement)</h5>
+                        <p>Quality-of-Service-Aware Configuration
+                        of Distributed Publish-Subscribe Systems
+                        <br/>&nbsp;</p>
+                    </div>
+                    
+                    <div class="education_item wow fadeInUp animated" data-line="D">
+                        <h6>2008 &ndash; 2012</h6>
+                        <a href="#">
+                            <h4>DEUS</h4>
+                        </a>
+                        <h5>FAU, Lehrstuhl für Informatik 6 (Datenmanagement)</h5>
+                        <p>Eine Pub/Sub Messaging-Infrastruktur für verteilte Patientenakten;
+                            basierend auf Java, Spring Dynamic Modules (OSGi), Smack (XMPP)</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="O">
+                        <h6>2009</h6>
+                        <a href="#">
+                            <h4>OXDBS</h4>
+                        </a>
+                        <h5>FAU, Lehrstuhl für Informatik 6 (Datenmanagement)</h5>
+                        <p>Eine Erweiterung der nativen XML Datenbank eXist-DB um die
+                            semantische Validierung von gespeicherten OWL-Ontologien; basierend
+                            auf Java, eXist-DB, XML:DB, XPath, XQuery, RacerPro (OWL-DL)</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="T">
+                        <h6>2009</h6>
+                        <a href="#">
+                            <h4>Laufzeitadaptierbare TX-Verwaltung</h4>
+                        </a>
+                        <h5>FAU, Lehrstuhl für Informatik 6 (Datenmanagement)</h5>
+                        <p>Grundlagenforschung für laufzeitadaptierbare Datenbanksysteme</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="X">
+                        <h6>2008</h6>
+                        <a href="#">
+                            <h4>XdsRig</h4>
+                        </a>
+                        <h5>FAU, Lehrstuhl für Informatik 6 (Datenmanagement)</h5>
+                        <p>Ein Teststand für das IHE XDS Integrationsprofil im
+                            Gesundheitswesen; basierend auf SW-Komponenten der NIST und des
+                            Eclipse OHF Projekts</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="F">
+                        <h6>2008</h6>
+                        <a href="#">
+                            <h4>fCMDB</h4>
+                        </a>
+                        <h5>Forschungsprojekt im Auftrag der Siemens AG</h5>
+                        <p>Eine föderative Integration verteilter und heterogener
+                            Configuration- Management-Datenbanken;<br />Architekturentwurf</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="F">
+                        <h6>2008</h6>
+                        <a href="#">
+                            <h4>FIX</h4>
+                        </a>
+                        <h5>Für die zentrale Universit&auml;tsverwaltung der FAU</h5>
+                        <p>Ein DWH zur Prognose von Teilnehmerzahlen in Lehrveranstaltungen;
+                            basierend auf JasperSoft, MySQL, Apache Axis (SOAP)</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="M">
+                        <h6>2004 &ndash; 2005</h6>
+                        <a href="#">
+                            <h4>MOOVE</h4>
+                        </a>
+                        <h5>Diplomarbeit für die AUDI AG</h5>
+                        <p> Multi-dimensionale heuristische Optimierung der Verteilung von HW-
+                            und SW-Komponenten in Fahrzeugen; basierend auf Java, JCL und PostgreSQL</p>
+                    </div>
+                    <div class="education_item wow fadeInUp animated" data-line="T">
+                        <h6>2003 &ndash; 2004</h6>
+                        <a href="#">
+                            <h4>TestEJB</h4>
+                        </a>
+                        <h5>Studienarbeit, ausgezeichnet durch die FAU</h5>
+                        <p>Komponenten-Teststand für Messungen an Enterprise JavaBeans;
+                            basierend auf Java, J2EE, Oracle DBMS, JBoss AS, Interceptors/d-AOP</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!--
+            <section class="portfolio_area pad" id="cyberpetaneuron">
+                <div class="main_title" style="padding-bottom: 0 !important;">
+                    <h2>Cyber Peta Neuron</h2>
+                    <br/>
+                    Christoph Peter Neumann =&gt; CPN &lt;= Cyber Peta Neuron
+                </div>
+                <div class="row">
+                    <div class="portfolio_list_inner">
+                        <div class="col-md-12 ref">
+                            <div class="portfolio_item">
+                                <div class="portfolio_title">
+                                    <a href="https://books.google.de/books?id=keCs7Y5ozMMC&pg=PA235&lpg=PA235&dq=the+worm+is+the+spice+the+spice+is+the+worm">
+                                        <h4>Aus den Analen des W&uuml;stenplaneten:</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio_list_inner">
+                        <div class="col-md-4 quotation">
+                            <div class="portfolio_item">
+                                <div class="cpn_component">
+                                    <blockquote class="callout quote DE">
+                                    The Cloud is the Cyber.<br/>The <b>Cyber</b> is the Cloud.
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 quotation">
+                            <div class="portfolio_item">
+                                <div class="cpn_component">
+                                    <blockquote class="callout quote DE">
+                                    The Big is the Peta.<br/>The <b>Peta</b> is the Big.
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 quotation">
+                            <div class="portfolio_item">
+                                <div class="cpn_component">
+                                    <blockquote class="callout quote DE">
+                                    Intelligence is the Neuron.<br/>The <b>Neuron</b> is Intelligence.
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            -->
+
+
+            <section class="contact_area pad" id="impressum">
+                <div class="main_title">
+                    <h2>Impressum</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="left_contact_details wow fadeInUp animated">
+                            <!-- <div class="contact_title">
+                                    <h3>Impressum</h3>
+                                    </div> -->
+                            <!-- <p style="color: Maroon;">
+              [This section is provided due to German law regulations.]
+            </p> -->
+                            <h2>Impressum</h2>
+                            <p>Prof. Dr. Christoph P. Neumann<br />
+                                <!-- Software-Ingenieur<br /> -->
+                                Bielefelder Str. 38A<br />
+                                90425 Nürnberg</p>
+                            <p>Telefon: +49 151 56031657<br />
+                                E-Mail: <script>
+                                    //<![CDATA[
+                                    viewTheUnspokenCPN("Kontakt");
+                                    //]]>
+
+                                </script>
+                            </p>
+                            <h2>Disclaimer – rechtliche Hinweise</h2>
+                            § 1 Warnhinweis zu Inhalten<br />
+                            Die kostenlosen und frei zugänglichen Inhalte dieser Webseite wurden
+                            mit größtmöglicher Sorgfalt erstellt. Der Anbieter dieser Webseite
+                            übernimmt jedoch keine Gewähr für die Richtigkeit und Aktualität der
+                            bereitgestellten kostenlosen und frei zugänglichen journalistischen
+                            Ratgeber und Nachrichten. Namentlich gekennzeichnete Beiträge geben
+                            die Meinung des jeweiligen Autors und nicht immer die Meinung des
+                            Anbieters wieder. Allein durch den Aufruf der kostenlosen und frei
+                            zugänglichen Inhalte kommt keinerlei Vertragsverhältnis zwischen dem
+                            Nutzer und dem Anbieter zustande, insoweit fehlt es am
+                            Rechtsbindungswillen des Anbieters.<br />
+                            <br />
+                            § 2 Externe Links<br />
+                            Diese Website enthält Verknüpfungen zu Websites Dritter ("externe
+                            Links"). Diese Websites unterliegen der Haftung der jeweiligen
+                            Betreiber. Der Anbieter hat bei der erstmaligen Verknüpfung der
+                            externen Links die fremden Inhalte daraufhin überprüft, ob etwaige
+                            Rechtsverstöße bestehen. Zu dem Zeitpunkt waren keine Rechtsverstöße
+                            ersichtlich. Der Anbieter hat keinerlei Einfluss auf die aktuelle
+                            und zukünftige Gestaltung und auf die Inhalte der verknüpften
+                            Seiten. Das Setzen von externen Links bedeutet nicht, dass sich der
+                            Anbieter die hinter dem Verweis oder Link liegenden Inhalte zu Eigen
+                            macht. Eine ständige Kontrolle der externen Links ist für den
+                            Anbieter ohne konkrete Hinweise auf Rechtsverstöße nicht zumutbar.
+                            Bei Kenntnis von Rechtsverstößen werden jedoch derartige externe
+                            Links unverzüglich gelöscht.<br />
+                            <br />
+                            § 3 Urheber- und Leistungsschutzrechte<br />
+                            Die auf dieser Website veröffentlichten Inhalte unterliegen dem
+                            deutschen Urheber- und Leistungsschutzrecht. Jede vom deutschen
+                            Urheber- und Leistungsschutzrecht nicht zugelassene Verwertung
+                            bedarf der vorherigen schriftlichen Zustimmung des Anbieters oder
+                            jeweiligen Rechteinhabers. Dies gilt insbesondere für
+                            Vervielfältigung, Bearbeitung, Übersetzung, Einspeicherung,
+                            Verarbeitung bzw. Wiedergabe von Inhalten in Datenbanken oder
+                            anderen elektronischen Medien und Systemen. Inhalte und Rechte
+                            Dritter sind dabei als solche gekennzeichnet. Die unerlaubte
+                            Vervielfältigung oder Weitergabe einzelner Inhalte oder kompletter
+                            Seiten ist nicht gestattet und strafbar. Lediglich die Herstellung
+                            von Kopien und Downloads für den persönlichen, privaten und nicht
+                            kommerziellen Gebrauch ist erlaubt.<br />
+                            <br />
+                            Die Darstellung dieser Website in fremden Frames ist nur mit schriftlicher Erlaubnis zulässig.<br />
+                            <br />
+                            § 4 Besondere Nutzungsbedingungen<br />
+                            Soweit besondere Bedingungen für einzelne Nutzungen dieser Website
+                            von den vorgenannten Paragraphen abweichen, wird an entsprechender
+                            Stelle ausdrücklich darauf hingewiesen. In diesem Falle gelten im
+                            jeweiligen Einzelfall die besonderen Nutzungsbedingungen.<p>Quelle:
+                                <a href="https://www.juraforum.de/impressum-generator/">Impressum
+                                    Vorlage von JuraForum.de</a>
+                            </p>
+
+                            <p>Gem&auml;&szlig; &sect;28 III Bundesdatenschutzgesetz
+                                untersagen wir die Nutzung unserer Daten f&uuml;r Werbezwecke!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact_area pad" id="datenschutzerklaerung">
+                <div class="main_title">
+                    <h2>Erkl&auml;rungen</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="left_contact_details wow fadeInUp animated">
+                            <!-- <p style="color: Maroon;">
+                [This section is provided due to German law regulations.]
+              </p> -->
+                            <!-- Button trigger modal -->
+                            <div style="text-align: left;">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#datenschutzerklaerungModal">
+                                    Datenschutzerklärung anzeigen
+                                </button>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="left_contact_details wow fadeInUp animated">
+                            <div style="text-align: left;">
+                                Als Amazon-Partner verdiene ich an qualifizierten Verkäufen
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--================  Modal  =================-->
+            <div class="modal fade" id="datenschutzerklaerungModal" tabindex="-1" role="dialog" aria-labelledby="datenschutzerklaerungModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="datenschutzerklaerungModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <h2>Datenschutzerklärung</h2>
+                            <h3 id="dsg-general-intro"></h3>
+                            <p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) im Rahmen der Erbringung unserer Leistungen sowie innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO). <br>
+                                <br>
+                            </p>
+                            <h3 id="dsg-general-controller">Verantwortlicher</h3>
+                            <p><span class="tsmcontroller">Christoph P. Neumann<br>
+                                    Bielefelder Str. 38A<br>
+                                    90425 Nürnberg<br>
+                                </span></p>
+                            <h3 id="dsg-general-datatype">Arten der verarbeiteten Daten</h3>
+                            <p>- Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).<br>
+                                - Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
+                                - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>
+                                - Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).<br>
+                                - Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).</p>
+                            <h3 id="dsg-general-datasubjects">Kategorien betroffener Personen</h3>
+                            <p>Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die betroffenen Personen zusammenfassend auch als „Nutzer“).<br>
+                            </p>
+                            <h3 id="dsg-general-purpose">Zweck der Verarbeitung</h3>
+                            <p>- Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.<br>
+                                - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.<br>
+                                - Sicherheitsmaßnahmen.<br>
+                                - Reichweitenmessung/Marketing<br>
+                                <span class="tsmcom"></span>
+                            </p>
+                            <h3 id="dsg-general-terms">Verwendete Begrifflichkeiten </h3>
+                            <p>„Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.<br>
+                                <br>
+                                „Verarbeitung“ ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten.<br>
+                                <br>
+                                „Pseudonymisierung“ die Verarbeitung personenbezogener Daten in einer Weise, dass die personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden.<br>
+                                <br>
+                                „Profiling“ jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.<br>
+                                <br>
+                                Als „Verantwortlicher“ wird die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet, bezeichnet.<br>
+                                <br>
+                                „Auftragsverarbeiter“ eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.<br>
+                            </p>
+                            <h3 id="dsg-general-legalbasis">Maßgebliche Rechtsgrundlagen</h3>
+                            <p>Nach Maßgabe des Art. 13 DSGVO teilen wir Ihnen die Rechtsgrundlagen unserer Datenverarbeitungen mit. Für Nutzer aus dem Geltungsbereich der Datenschutzgrundverordnung (DSGVO), d.h. der EU und des EWG gilt, sofern die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird, Folgendes: <br>
+                                Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1 lit. a und Art. 7 DSGVO;<br>
+                                Die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer Leistungen und Durchführung vertraglicher Maßnahmen sowie Beantwortung von Anfragen ist Art. 6 Abs. 1 lit. b DSGVO;<br>
+                                Die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO;<br>
+                                Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als Rechtsgrundlage.<br>
+                                Die Rechtsgrundlage für die erforderliche Verarbeitung zur Wahrnehmung einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde ist Art. 6 Abs. 1 lit. e DSGVO. <br>
+                                Die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten Interessen ist Art. 6 Abs. 1 lit. f DSGVO. <br>
+                                Die Verarbeitung von Daten zu anderen Zwecken als denen, zu denen sie ehoben wurden, bestimmt sich nach den Vorgaben des Art 6 Abs. 4 DSGVO. <br>
+                                Die Verarbeitung von besonderen Kategorien von Daten (entsprechend Art. 9 Abs. 1 DSGVO) bestimmt sich nach den Vorgaben des Art. 9 Abs. 2 DSGVO. <br>
+                            </p>
+                            <h3 id="dsg-general-securitymeasures">Sicherheitsmaßnahmen</h3>
+                            <p>Wir treffen nach Maßgabe der gesetzlichen Vorgabenunter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere des Risikos für die Rechte und Freiheiten natürlicher Personen, geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.<br>
+                                <br>
+                                Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen Zugangs zu den Daten, als auch des sie betreffenden Zugriffs, der Eingabe, Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die eine Wahrnehmung von Betroffenenrechten, Löschung von Daten und Reaktion auf Gefährdung der Daten gewährleisten. Ferner berücksichtigen wir den Schutz personenbezogener Daten bereits bei der Entwicklung, bzw. Auswahl von Hardware, Software sowie Verfahren, entsprechend dem Prinzip des Datenschutzes durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen.<br>
+                            </p>
+                            <h3 id="dsg-general-coprocessing">Zusammenarbeit mit Auftragsverarbeitern, gemeinsam Verantwortlichen und Dritten</h3>
+                            <p>Sofern wir im Rahmen unserer Verarbeitung Daten gegenüber anderen Personen und Unternehmen (Auftragsverarbeitern, gemeinsam Verantwortlichen oder Dritten) offenbaren, sie an diese übermitteln oder ihnen sonst Zugriff auf die Daten gewähren, erfolgt dies nur auf Grundlage einer gesetzlichen Erlaubnis (z.B. wenn eine Übermittlung der Daten an Dritte, wie an Zahlungsdienstleister, zur Vertragserfüllung erforderlich ist), Nutzer eingewilligt haben, eine rechtliche Verpflichtung dies vorsieht oder auf Grundlage unserer berechtigten Interessen (z.B. beim Einsatz von Beauftragten, Webhostern, etc.). <br>
+                                <br>
+                                Sofern wir Daten anderen Unternehmen unserer Unternehmensgruppe offenbaren, übermitteln oder ihnen sonst den Zugriff gewähren, erfolgt dies insbesondere zu administrativen Zwecken als berechtigtes Interesse und darüberhinausgehend auf einer den gesetzlichen Vorgaben entsprechenden Grundlage. <br>
+                            </p>
+                            <h3 id="dsg-general-thirdparty">Übermittlungen in Drittländer</h3>
+                            <p>Sofern wir Daten in einem Drittland (d.h. außerhalb der Europäischen Union (EU), des Europäischen Wirtschaftsraums (EWR) oder der Schweizer Eidgenossenschaft) verarbeiten oder dies im Rahmen der Inanspruchnahme von Diensten Dritter oder Offenlegung, bzw. Übermittlung von Daten an andere Personen oder Unternehmen geschieht, erfolgt dies nur, wenn es zur Erfüllung unserer (vor)vertraglichen Pflichten, auf Grundlage Ihrer Einwilligung, aufgrund einer rechtlichen Verpflichtung oder auf Grundlage unserer berechtigten Interessen geschieht. Vorbehaltlich gesetzlicher oder vertraglicher Erlaubnisse, verarbeiten oder lassen wir die Daten in einem Drittland nur beim Vorliegen der gesetzlichen Voraussetzungen. D.h. die Verarbeitung erfolgt z.B. auf Grundlage besonderer Garantien, wie der offiziell anerkannten Feststellung eines der EU entsprechenden Datenschutzniveaus (z.B. für die USA durch das „Privacy Shield“) oder Beachtung offiziell anerkannter spezieller vertraglicher Verpflichtungen.</p>
+                            <h3 id="dsg-general-rightssubject">Rechte der betroffenen Personen</h3>
+                            <p>Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten entsprechend den gesetzlichen Vorgaben.<br>
+                                <br>
+                                Sie haben entsprechend. den gesetzlichen Vorgaben das Recht, die Vervollständigung der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen.<br>
+                                <br>
+                                Sie haben nach Maßgabe der gesetzlichen Vorgaben das Recht zu verlangen, dass betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe der gesetzlichen Vorgaben eine Einschränkung der Verarbeitung der Daten zu verlangen.<br>
+                                <br>
+                                Sie haben das Recht zu verlangen, dass die Sie betreffenden Daten, die Sie uns bereitgestellt haben nach Maßgabe der gesetzlichen Vorgaben zu erhalten und deren Übermittlung an andere Verantwortliche zu fordern. <br>
+                                <br>
+                                Sie haben ferner nach Maßgabe der gesetzlichen Vorgaben das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen.<br>
+                            </p>
+                            <h3 id="dsg-general-revokeconsent">Widerrufsrecht</h3>
+                            <p>Sie haben das Recht, erteilte Einwilligungen mit Wirkung für die Zukunft zu widerrufen.</p>
+                            <h3 id="dsg-general-object">Widerspruchsrecht</h3>
+                            <p><strong>Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe der gesetzlichen Vorgaben jederzeit widersprechen. Der Widerspruch kann insbesondere gegen die Verarbeitung für Zwecke der Direktwerbung erfolgen.</strong></p>
+                            <h3 id="dsg-general-cookies">Cookies und Widerspruchsrecht bei Direktwerbung</h3>
+                            <p>Als „Cookies“ werden kleine Dateien bezeichnet, die auf Rechnern der Nutzer gespeichert werden. Innerhalb der Cookies können unterschiedliche Angaben gespeichert werden. Ein Cookie dient primär dazu, die Angaben zu einem Nutzer (bzw. dem Gerät auf dem das Cookie gespeichert ist) während oder auch nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Als temporäre Cookies, bzw. „Session-Cookies“ oder „transiente Cookies“, werden Cookies bezeichnet, die gelöscht werden, nachdem ein Nutzer ein Onlineangebot verlässt und seinen Browser schließt. In einem solchen Cookie kann z.B. der Inhalt eines Warenkorbs in einem Onlineshop oder ein Login-Status gespeichert werden. Als „permanent“ oder „persistent“ werden Cookies bezeichnet, die auch nach dem Schließen des Browsers gespeichert bleiben. So kann z.B. der Login-Status gespeichert werden, wenn die Nutzer diese nach mehreren Tagen aufsuchen. Ebenso können in einem solchen Cookie die Interessen der Nutzer gespeichert werden, die für Reichweitenmessung oder Marketingzwecke verwendet werden. Als „Third-Party-Cookie“ werden Cookies bezeichnet, die von anderen Anbietern als dem Verantwortlichen, der das Onlineangebot betreibt, angeboten werden (andernfalls, wenn es nur dessen Cookies sind spricht man von „First-Party Cookies“).<br>
+                                <br>
+                                Wir können temporäre und permanente Cookies einsetzen und klären hierüber im Rahmen unserer Datenschutzerklärung auf.<br>
+                                <br>
+                                Falls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner gespeichert werden, werden sie gebeten die entsprechende Option in den Systemeinstellungen ihres Browsers zu deaktivieren. Gespeicherte Cookies können in den Systemeinstellungen des Browsers gelöscht werden. Der Ausschluss von Cookies kann zu Funktionseinschränkungen dieses Onlineangebotes führen.<br>
+                                <br>
+                                Ein genereller Widerspruch gegen den Einsatz der zu Zwecken des Onlinemarketing eingesetzten Cookies kann bei einer Vielzahl der Dienste, vor allem im Fall des Trackings, über die US-amerikanische Seite <a href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a> oder die EU-Seite <a href="http://www.youronlinechoices.com/">http://www.youronlinechoices.com/</a> erklärt werden. Des Weiteren kann die Speicherung von Cookies mittels deren Abschaltung in den Einstellungen des Browsers erreicht werden. Bitte beachten Sie, dass dann gegebenenfalls nicht alle Funktionen dieses Onlineangebotes genutzt werden können.
+                            </p>
+                            <h3 id="dsg-general-erasure">Löschung von Daten</h3>
+                            <p>Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen Vorgaben gelöscht oder in ihrer Verarbeitung eingeschränkt. Sofern nicht im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden die bei uns gespeicherten Daten gelöscht, sobald sie für ihre Zweckbestimmung nicht mehr erforderlich sind und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen. <br>
+                                <br>
+                                Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt. D.h. die Daten werden gesperrt und nicht für andere Zwecke verarbeitet. Das gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen aufbewahrt werden müssen.
+                            </p>
+                            <h3 id="dsg-general-changes">Änderungen und Aktualisierungen der Datenschutzerklärung</h3>
+                            <p>Wir bitten Sie sich regelmäßig über den Inhalt unserer Datenschutzerklärung zu informieren. Wir passen die Datenschutzerklärung an, sobald die Änderungen der von uns durchgeführten Datenverarbeitungen dies erforderlich machen. Wir informieren Sie, sobald durch die Änderungen eine Mitwirkungshandlung Ihrerseits (z.B. Einwilligung) oder eine sonstige individuelle Benachrichtigung erforderlich wird.</p>
+                            <p></p>
+                            <h3 id="dsg-commercialpurpose">Geschäftsbezogene Verarbeitung</h3>
+                            <p></p>
+                            <p><span class="ts-muster-content">Zusätzlich verarbeiten wir<br>
+                                    - Vertragsdaten (z.B., Vertragsgegenstand, Laufzeit, Kundenkategorie).<br>
+                                    - Zahlungsdaten (z.B., Bankverbindung, Zahlungshistorie)<br>
+                                    von unseren Kunden, Interessenten und Geschäftspartner zwecks Erbringung vertraglicher Leistungen, Service und Kundenpflege, Marketing, Werbung und Marktforschung.</span></p>
+                            <p></p>
+                            <h3 id="dsg-services-agency">Agenturdienstleistungen</h3>
+                            <p></p>
+                            <p><span class="ts-muster-content">Wir verarbeiten die Daten unserer Kunden im Rahmen unserer vertraglichen Leistungen zu denen konzeptionelle und strategische Beratung, Kampagnenplanung, Software- und Designentwicklung/-beratung oder Pflege, Umsetzung von Kampagnen und Prozessen/ Handling, Serveradministration, Datenanalyse/ Beratungsleistungen und Schulungsleistungen gehören.<br>
+                                    <br>
+                                    Hierbei verarbeiten wir Bestandsdaten (z.B., Kundenstammdaten, wie Namen oder Adressen), Kontaktdaten (z.B., E-Mail, Telefonnummern), Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos), Vertragsdaten (z.B., Vertragsgegenstand, Laufzeit), Zahlungsdaten (z.B., Bankverbindung, Zahlungshistorie), Nutzungs- und Metadaten (z.B. im Rahmen der Auswertung und Erfolgsmessung von Marketingmaßnahmen). Besondere Kategorien personenbezogener Daten verarbeiten wir grundsätzlich nicht, außer wenn diese Bestandteile einer beauftragten Verarbeitung sind. Zu den Betroffenen gehören unsere Kunden, Interessenten sowie deren Kunden, Nutzer, Websitebesucher oder Mitarbeiter sowie Dritte. Der Zweck der Verarbeitung besteht in der Erbringung von Vertragsleistungen, Abrechnung und unserem Kundenservice. Die Rechtsgrundlagen der Verarbeitung ergeben sich aus Art. 6 Abs. 1 lit. b DSGVO (vertragliche Leistungen), Art. 6 Abs. 1 lit. f DSGVO (Analyse, Statistik, Optimierung, Sicherheitsmaßnahmen). Wir verarbeiten Daten, die zur Begründung und Erfüllung der vertraglichen Leistungen erforderlich sind und weisen auf die Erforderlichkeit ihrer Angabe hin. Eine Offenlegung an Externe erfolgt nur, wenn sie im Rahmen eines Auftrags erforderlich ist. Bei der Verarbeitung der uns im Rahmen eines Auftrags überlassenen Daten handeln wir entsprechend den Weisungen der Auftraggeber sowie der gesetzlichen Vorgaben einer Auftragsverarbeitung gem. Art. 28 DSGVO und verarbeiten die Daten zu keinen anderen, als den auftragsgemäßen Zwecken.<br>
+                                    <br>
+                                    Wir löschen die Daten nach Ablauf gesetzlicher Gewährleistungs- und vergleichbarer Pflichten. die Erforderlichkeit der Aufbewahrung der Daten wird alle drei Jahre überprüft; im Fall der gesetzlichen Archivierungspflichten erfolgt die Löschung nach deren Ablauf (6 J, gem. § 257 Abs. 1 HGB, 10 J, gem. § 147 Abs. 1 AO). Im Fall von Daten, die uns gegenüber im Rahmen eines Auftrags durch den Auftraggeber offengelegt wurden, löschen wir die Daten entsprechend den Vorgaben des Auftrags, grundsätzlich nach Ende des Auftrags.</span></p>
+                            <p></p>
+                            <h3 id="dsg-hostingprovider">Hosting und E-Mail-Versand</h3>
+                            <p></p>
+                            <p><span class="ts-muster-content">Die von uns in Anspruch genommenen Hosting-Leistungen dienen der Zurverfügungstellung der folgenden Leistungen: Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und Datenbankdienste, E-Mail-Versand, Sicherheitsleistungen sowie technische Wartungsleistungen, die wir zum Zwecke des Betriebs dieses Onlineangebotes einsetzen. <br>
+                                    <br>
+                                    Hierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten, Kontaktdaten, Inhaltsdaten, Vertragsdaten, Nutzungsdaten, Meta- und Kommunikationsdaten von Kunden, Interessenten und Besuchern dieses Onlineangebotes auf Grundlage unserer berechtigten Interessen an einer effizienten und sicheren Zurverfügungstellung dieses Onlineangebotes gem. Art. 6 Abs. 1 lit. f DSGVO i.V.m. Art. 28 DSGVO (Abschluss Auftragsverarbeitungsvertrag).</span></p><a href="https://datenschutz-generator.de" class="dsg1-6" rel="nofollow" target="_blank">Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a>
+
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+            <!--================Map Area =================-->
+            <!--
+                <div id="mapBox" class="mapBox row m0" 
+                data-lat="37.3818288" 
+                data-lon="-122.0658212" 
+                data-zoom="13"></div>
+                -->
+            <!--================End Map Area =================-->
+        </div>
+    </div>
+    <!--================End Total container Area =================-->
+
+    <!--================footer Area =================-->
+    <footer class="footer_area">
+        <div class="footer_inner">
+            <div class="container">
+                <span class="footer_title">CyberLytics</span>
+                <p>&nbsp;</p>&nbsp;
+                <ul class="social_icon">
+                    <li><a href="https://beacons.ai/cyberlytics"><i class="fa fa-link"></i></a></li>
+                    <li><a href="https://www.oth-aw.de/cpn"><i class="fa fa-university"></i></a></li>
+                    <li><a href="https://pgp.surfnet.nl/pks/lookup?op=get&search=0x2876154614C62D0A"><i class="fa fa-key"></i></a></li>
+                    <!-- <li><a href="callto:+4915156031657"><i class="fa fa-mobile"></i></a></li> -->
+                    <!--<li><a href="skype:cpnatwork?call"><i class="fa fa-skype"></i></a></li>-->
+                    <li><a href="https://www.xing.to/cpn"><i class="fa fa-xing"></i></a></li>
+                    <li><a href="https://de.linkedin.com/in/cpnatwork"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/CyberPetaNeuron"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/cyberlytics/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.pinterest.de/cyberlytics/"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="https://www.flickr.com/people/cyberlytics/"><i class="fa fa-flickr"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
+                    <li><a href="https://github.com/cyberlytics"><i class="fa fa-github"></i></a></li>
+                    <li><a href="http://scholar.google.de/citations?user=CGWWa5AAAAAJ"><i class="ai ai-google-scholar"></i></a></li>
+                    <li><a href="https://dblp.uni-trier.de/pers/hd/n/Neumann:Christoph_P="><i class="ai ai-dblp"></i></a></li>
+                    <li><a href="https://www.researchgate.net/profile/Christoph_Neumann2"><i class="ai ai-researchgate"></i></a></li>
+                    <li><a href="https://www.csauthors.net/christoph-p-neumann/"><i class="ai ai-dataverse"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <div class="container">
+                <div class="pull-left">
+                    <h5>
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed
+              under CC BY 3.0. -->
+                            Copyright &copy;<script>
+                                document.write(new Date().getFullYear());
+
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed
+              under CC BY 3.0. -->
+                        </p>
+                    </h5>
+                </div>
+                <div class="pull-right">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#profil">Kontakt</a></li>
+                        <li><a href="#impressum">Impressum</a></li>
+                        <li class="active"><a href="#datenschutzerklaerung">Datenschutzerkl&auml;rung</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================End footer Area =================-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as
+  needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Extra plugin js -->
+    <script src="vendors/counter-up/waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+
+    <!--
+    <script src="vendors/style-switcher/styleswitcher.js"></script>
+    <script src="vendors/style-switcher/switcher-active.js"></script>
+    -->
+
+    <script src="vendors/animate-css/wow.min.js"></script>
+
+    <!--gmaps Js-->
+    <!--        
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="js/gmaps.min.js"></script>
+        -->
+
+    <!-- contact js -->
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/contact.js"></script>
+
+    <script src="js/theme.js"></script>
+</body>
+
+</html>

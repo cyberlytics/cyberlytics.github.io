@@ -238,7 +238,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-	value: "theses-criteria-CPN.pdf",
+	value: "theses-criteria-CPN_DE-original.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
